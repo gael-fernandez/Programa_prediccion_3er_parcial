@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { sembrarAlumnos, test } from "./backend/Controllers/alumno.controller.js";
+import { sembrarAlumnos, test } from "./Controllers/alumno.controller.js";
 
 dotenv.config();
 
